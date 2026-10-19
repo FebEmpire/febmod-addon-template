@@ -3,24 +3,17 @@
 	"id": "febmod-addon-template",
 	"version": "${version}",
 	"name": "febmod addon template",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A starter template for creating FebMod addons.",
 	"authors": [
-		"Me!"
+		"FebEmpire"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/FebEmpire/febmod-addon-template"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/febmod-addon-template/icon.png",
 	"environment": "*",
 	"entrypoints": {
-		"main": [
-			{
-				"value": "com.example.febmod.addon.FebmodAddonTemplate",
-				"adapter": "kotlin"
-			}
-		],
 		"fabric-datagen": [
 			{
 				"value": "com.example.febmod.addon.FebmodAddonTemplateDataGenerator",
@@ -36,6 +29,7 @@
 		"minecraft": "~26.2",
 		"java": ">=25",
 		"fabric-api": "*",
-		"fabric-language-kotlin": "*"
+		"fabric-language-kotlin": "*",
+		"febmod": "*"
 	}
 }

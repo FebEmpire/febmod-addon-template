@@ -1,0 +1,6 @@
+{
+  "id": "febmod-addon-template",
+  "name": "FebMod Addon Template",
+  "version": "1.0.0",
+  "entrypoint": "com.example.febmod.addon.FebmodAddonTemplate"
+}

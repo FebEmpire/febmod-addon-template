@@ -1,0 +1,25 @@
+# Gradle
+.gradle/
+build/
+.kotlin/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Logs
+*.log
+
+# Minecraft runtime and generated files
+run/
+crash-reports/
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Compiled JARs (keep the Gradle wrapper)
+*.jar
+!gradle/wrapper/gradle-wrapper.jar

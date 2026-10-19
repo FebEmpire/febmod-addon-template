@@ -1,4 +1,4 @@
-# febmod addon template
+# FebMod Addon Template
 
 ## Setup
 
